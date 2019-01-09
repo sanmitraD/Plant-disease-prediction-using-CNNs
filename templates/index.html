@@ -6,14 +6,36 @@
 
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
-
 </head>
 <body>
 	<h1 class="title">PlantDisPre</h1>
-
-	<form method="post" enctype='multipart/form-data' >
-		<input type="file" name="file">
-		<input type="submit" value='upload'>
-	</form>
+	<p>Just take a picture of the leaf of plant you want to examine and upload here</p>
+	<div class="upload-div">
+		<form method="post" enctype='multipart/form-data' >
+			<input type="file" name="file">
+			<input type="submit" value='upload'>
+		</form>
+	</div>
+	<p>The application is developed using PyTorch
+		Used Transfer Learning technique and developed the model on pretrained Densnet121 model
+		Currently the application predicts the disease with upto 93% accuracy on following plants
+	</p>
+	<h3>the plants which can be examined:</h3>
+	<ul>
+		<li> Apple </li>
+		<li> Blueberry </li>
+		<li> Cherry_(including_sour) </li>
+		<li> Corn_(maize) </li>
+		<li> Grape </li>
+		<li> Orange </li>
+		<li> Peach </li>
+		<li> Pepper,_bell </li>
+		<li> Potato </li>
+		<li> Raspberry </li>
+		<li> Soybean </li>
+		<li> Squash </li>
+		<li> Strawberry </li>
+		<li> Tomato </li>
+	</ul>
 </body>
 </html>
