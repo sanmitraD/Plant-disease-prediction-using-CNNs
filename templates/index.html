@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plant Dispre</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito" rel="stylesheet">
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+<body>
+	<h1 class="title">PlantDisPre</h1>
+
+	<form method="post" enctype='multipart/form-data' >
+		<input type="file" name="file">
+		<input type="submit" value='upload'>
+	</form>
+</body>
+</html>

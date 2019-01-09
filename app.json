@@ -1,0 +1,5 @@
+{
+  "name": "PlantDisPre",
+  "description": "An AI based application developed using PyTorch to detect the plant's disease and finding out natural remidy and prevention for that",
+  "keywords":["PyTorch","Python","flask","plants","environment","plant diseases"]
+}
